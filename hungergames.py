@@ -6,8 +6,10 @@ https://brantsteele.com/extras/hungergames/01/logo.png
 for line in inp:
     line = line.split(",")
     if district % 2 == 0:
-        print("""\nDistrict %s
-#FFFFFF 0 0\n""" % (district//2))
+        print("""
+District %s
+#FFFFFF 0 0
+""" % (district//2))
     district += 1
     print(line[2] + "\n" + line[2])
     match line[3]:
