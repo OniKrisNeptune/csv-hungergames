@@ -1,4 +1,4 @@
-inp = open(input(),"r").read().split("\n")[2:]
+inp = open(input(),"r").read().split("\n")[1:]
 district = 2
 print("""The Hunger Games
 https://brantsteele.com/extras/hungergames/01/logo.png
