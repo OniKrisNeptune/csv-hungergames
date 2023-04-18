@@ -20,3 +20,4 @@ District %s
         case "they/them":
             print("4")
     print("T\nT\n")
+input()
